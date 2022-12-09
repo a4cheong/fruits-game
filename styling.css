@@ -16,10 +16,10 @@ html{
 } /*end of container*/
 
 #footer{
-    height: 30px;
+    height: 70px;
     width: 750px;
     background-color: #f2fff9;
-    margin: 30px auto;
+    margin: 45px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 4px 4px 10px 0px #1d2823;
@@ -27,6 +27,7 @@ html{
     position: relative;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 } /*end of footer*/
 
 #score{
