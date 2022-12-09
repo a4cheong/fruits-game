@@ -14,8 +14,22 @@
                     Score: <span id="scorevalue">0</span>
                 </div> <!-- end score -->
                 <div id="trialsLeft">
-
                 </div><!-- end trialsLeft -->
+
+                <div class="toggleMute">
+                    <!-- <button>Toggle Mute</button> -->
+                    <img id="muteButton" src="./img/unmute.png" alt="">
+                </div>
+                
+                
+                <audio id="slicesound">
+                    <source src="audio/shot.mp3"></source>
+                    <source src="audio/shot.ogg"></source>
+                </audio>
+                <!-- end audioButton -->
+                
+
+
                 <div id="correct">
                      Correct !
                 </div> <!-- end correct -->
@@ -47,13 +61,13 @@
                 </div>
             </footer><!-- end of footer -->
 
-            <audio id="slicesound"><source src="audio/shot.mp3"></source>
-                    <source src="audio/shot.ogg"></source>
-            </audio>
+
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
             <script src="jquery.js"></script>
+
+
 
         </body>
 </html>

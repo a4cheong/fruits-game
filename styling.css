@@ -4,7 +4,7 @@ html{
 }
 
 #container{
-    height: 600px;
+    height: 650px;
     width: 750px;
     background-color: #9DD2EA;
     margin: 20px auto;
@@ -35,7 +35,7 @@ html{
     color: #888E5F;
     padding: 11px;
     position: absolute;
-    left: 700px;
+    margin-left: 530px;
     box-shadow: 4px 4px 5px 0px #aaa235;
     border-radius: 5px;
 }   /*end of score*/
@@ -188,4 +188,17 @@ html{
 .fruit{
     display: none;
     position: absolute;
+}
+
+
+
+
+.toggleMute{
+    margin-left: 650px;
+    margin-right: 30px;
+    background-color: #F1FF92;
+    color: #888E5F;
+    padding: 2.8px;
+    box-shadow: 4px 4px 5px 0px #aaa235;
+    border-radius: 5px;
 }

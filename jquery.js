@@ -6,15 +6,36 @@ var step;
 var action;
 var blink;
 
+
+
+
+
 $(function(){
+    
+    $("audio").prop('volume',0.1);
+    $("#muteButton").click(function(){
+        if($("audio").prop('muted')){
+            $("audio").prop('muted',true);
+            $("#muteButton").attr('src' , './img/unmute.png');
+            $("audio").prop('muted',false);
+        }
+        else{
+            $("audio").prop('muted',false);
+            $("#muteButton").attr('src' , './img/mute.png');
+            $("audio").prop('muted',true);
+        }
+    });
+    
     $("#startreset").click(function(){
-
+        
         $("#gameOver").hide();
-
+        
         //we are playing
         if(playing == true){
             //reload page
             location.reload();
+
+
         }
         else{
             //we are not playing
