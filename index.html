@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fruits Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" href="styling.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+
+    </head>
+        <body>
+            <div id=container>
+                <div id="score">
+                    Score: <span id="scorevalue">0</span>
+                </div> <!-- end score -->
+                <div id="trialsLeft">
+
+                </div><!-- end trialsLeft -->
+                <div id="correct">
+                     Correct !
+                </div> <!-- end correct -->
+                <div id="wrong">
+                    Try again
+                </div> <!-- end wrong -->
+                <div id="fruitsContainer">
+                    <img id="fruit1" class="fruit">
+                </div> <!-- end fruitsContainer -->
+                <div id="instruction">
+                    Catch Fruits
+                </div> <!-- end instruction -->
+
+                <div id="startreset">
+                    Start Game
+                </div><!-- end startreset -->
+
+                <div id="gameOver">
+
+                </div><!-- end gameOver -->
+            </div> <!-- end container -->
+            <footer>
+                <div id="footer">
+                    Images are from <a href="https://openclipart.org" target="_blank">Open Clip Art! <  https://openclipart.org ></a>
+                    <br>
+                    Heart shape is from <a href="https://logomakr.com" target="_blank">Logo Maker! <  https://logomakr.com ></a>
+                </div>
+            </footer><!-- end of footer -->
+
+            <audio id="slicesound"><source src="audio/shot.mp3"></source>
+                    <source src="audio/shot.ogg"></source>
+            </audio>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+            <script src="jquery.js"></script>
+
+        </body>
+</html>
